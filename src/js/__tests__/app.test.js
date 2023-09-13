@@ -7,10 +7,10 @@ import healthBar from '../app';
 // });
 
 const heroes = [
-  [{name: 'мечник', health: 10}, 'critical'],
-  [{name: 'маг', health: 100}, 'healthy'],
-  [{name: 'лучник', health: 40}, 'wounded'],
-  [{name: 'ремесленник', health: -1}, 'Something is wrong']
+  [{ name: 'мечник', health: 10 }, 'critical'],
+  [{ name: 'маг', health: 100 }, 'healthy'],
+  [{ name: 'лучник', health: 40 }, 'wounded'],
+  [{ name: 'ремесленник', health: -1 }, 'Something is wrong'],
 ];
 
 const handler = test.each(heroes);
